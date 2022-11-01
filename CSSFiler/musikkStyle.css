@@ -73,6 +73,16 @@ body{
     width: 3vw;
     height: 3vw;
     border-radius: 50%;
+    transform: scale(1,1);
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.39,-0.65, 0.3, 2.62);
+
+}
+.buttons button:hover{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    transform: scale(1.1,1.1);
 
 }
 .buttons button img{width: 100%;}
