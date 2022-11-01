@@ -45,6 +45,7 @@ function back(){
 
 
 function infoReset(){
+    audio.pause()
     var audio = new Audio(currentSong[3]); audio.play();
 
     durationNR = parseInt(currentSong[2]) 
