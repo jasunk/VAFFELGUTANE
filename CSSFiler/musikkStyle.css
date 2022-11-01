@@ -11,6 +11,7 @@ body{
 
 
 #musicPlayerBase{
+    transition-duration: 0.7s;
     position: sticky;
     margin-left: 10vw;
     margin-top: 2vw;
