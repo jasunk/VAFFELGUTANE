@@ -1,9 +1,9 @@
 
 const song1 = ["Bro bro brille", "bilder/musikk/broAlbum.jpg", "133","lydfiler/beat.wav" ]
-const song2 = ["Heisann", "bilder/musikk/iverAlbum.jpg", "230"]
-const song3 = ["Du er kul", "bilder/musikk/eirikAlbum.jpg", "20"]
+const song2 = ["Heisann", "bilder/musikk/iverAlbum.jpg", "193", "lydfiler/lemonTree.mp3"]
+const song3 = ["Du er kul", "bilder/musikk/eirikAlbum.jpg", "621", "lydfiler/rus.mp3"]
 
-let currentSong= song2
+let currentSong = song2
 
 var audio = new Audio(currentSong[3]); audio.play();
 let durationNR = parseInt(currentSong[2]) 
