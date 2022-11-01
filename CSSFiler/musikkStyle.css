@@ -10,7 +10,7 @@ body{
 
 
 
-.musicPlayerBase{
+#musicPlayerBase{
     position: sticky;
     margin-left: 10vw;
     margin-top: 2vw;
@@ -28,8 +28,8 @@ body{
 }
 
 .albumCover img{
-    width: 100%;
-    height: auto;
+    width: 22.9vw;
+    height: 22.9vw;
 }
 
 
@@ -39,7 +39,7 @@ body{
     width: 102%;
     margin-left: -1%;
     
-    background-color: black;
+    
     border-radius: 50px;
 }
 
@@ -59,7 +59,7 @@ body{
     margin-left: 2.5%;
     margin-top: 0.5vh;
     margin-bottom: 5%;
-    background-color: black;
+    
     display: flex;
     justify-content: center;
     align-items: center;
