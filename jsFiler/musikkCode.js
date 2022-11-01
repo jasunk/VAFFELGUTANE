@@ -13,7 +13,8 @@ let durationWidth = 0
 
 let playing=true
 
-setInterval(musikk,10)
+setTimeout(musikk,10)
+
 function musikk(){
     audio.play();
 }
@@ -81,13 +82,13 @@ function infoReset(){
 
 function hoho(){
     if (playing){
-        
-        playing=false
         audio.pause();
-    }else{
+        playing=false
         
-        playing=true
+    }else{
         audio.play();
+        playing=true
+        
     }
 }
 
