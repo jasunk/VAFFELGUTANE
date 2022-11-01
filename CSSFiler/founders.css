@@ -17,8 +17,7 @@ body{
     padding:5px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background:linear-gradient(90deg,var(--bg-color),var(--top-bar));    
+    align-items: center;  
     font-family: 'Poiret One', cursive;
     font-size: 4rem;
     z-index: 1;
