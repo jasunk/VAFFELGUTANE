@@ -43,11 +43,9 @@ function duration(){
     console.log(durationNR + durationMinus, durationWidth)
     
 
-    
-    
     if (durationWidth<100+durationMinus){
         document.getElementById("duration").style.width = durationWidth + "%"
-    }
+    }else{skip()}
 }
     
     

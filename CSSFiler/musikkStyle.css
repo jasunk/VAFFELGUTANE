@@ -50,6 +50,7 @@ body{
     width: 0%;
     transition-duration: 0.95s;
     border-radius: 15px;
+    max-width: 100% !important;
     
     
 }
@@ -69,8 +70,8 @@ body{
 }
 
 .buttons button{
-    width: 3.2vw;
-    height: 3.2vw;
+    width: 3vw;
+    height: 3vw;
     border-radius: 50%;
 
 }
