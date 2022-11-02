@@ -116,6 +116,7 @@ body{
     flex-direction: row;
 }
 .info{
+    
     overflow: auto;
     max-width: 55%;
     padding: auto;

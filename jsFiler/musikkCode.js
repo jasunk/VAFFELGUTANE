@@ -28,6 +28,7 @@ function musikk(){
 
 setInterval(duration, 1000)
 
+
 document.getElementById("albumBilde").src = currentSong[1]
 document.getElementById("albumBilde").style.borderRadius="50px"
 document.getElementById("songName").innerHTML = currentSong[0] + " - VAFFELGUTANE"
