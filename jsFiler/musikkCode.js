@@ -36,6 +36,7 @@ document.getElementById("songName").innerHTML = currentSong[0] + " - VAFFELGUTAN
 function duration(){
     rgb = getAverageRGB(document.getElementById('albumBilde'));
     document.getElementById("musicPlayerBase").style.backgroundColor = 'rgb('+rgb.r+','+rgb.g+','+rgb.b+')';
+    document.getElementById("top-bar").style.backgroundColor = 'rgb('+rgb.r+','+rgb.g+','+rgb.b+')';
     document.getElementById("musicPlayerBase").style.border =" 0.7vw solid "+ 'rgb('+rgb.r+','+rgb.g+','+rgb.b+')';
 
     if (playing){
@@ -53,6 +54,7 @@ function duration(){
 }
 
 function skip(){
+    
     audio.pause()
     if (currentSong==song1){
         currentSong = song2
@@ -65,6 +67,7 @@ function skip(){
     }else if(currentSong==song5){
         currentSong=song1
     }
+    
     
     infoReset()
 }
@@ -121,25 +124,25 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
-        document.querySelector(".blob").style.width = "33vw";
-        document.querySelector(".blob").style.height = "33vw";
-        document.querySelector(".blob").style.top = "-15vw";
-        document.querySelector(".blob").style.left = "-15vw";
-        document.querySelector("#blob2").style.width = "43vw";
-        document.querySelector("#blob2").style.height = "43vw";
-        document.querySelector("#blob2").style.top = "-15vw";
-        document.querySelector("#blob2").style.left = "-15vw";
+        document.querySelector(".blob").style.width = "23vw";
+        document.querySelector(".blob").style.height = "23vw";
+        document.querySelector(".blob").style.top = "-5vw";
+        document.querySelector(".blob").style.left = "-5vw";
+        document.querySelector("#blob2").style.width = "23vw";
+        document.querySelector("#blob2").style.height = "23vw";
+        document.querySelector("#blob2").style.top = "-5vw";
+        document.querySelector("#blob2").style.left = "-5vw";
         document.querySelector("#dining-icon").style.top="2.66vw";
         document.querySelector("#dining-icon").style.left="2.66vw";
-        document.querySelector("#dining-icon").style.fontSize="12vw";
+        document.querySelector("#dining-icon").style.fontSize="9vw";
         document.querySelector(".top-bar").style.height="7vw";
     } 
     else {
-        document.querySelector(".blob").style.height = "26vw";
-        document.querySelector(".blob").style.height = "26vw";
+        document.querySelector(".blob").style.width = "17vw";
+        document.querySelector(".blob").style.height = "17vw";
         document.querySelector(".blob").style.top = "-7vw";
-        document.querySelector("#blob2").style.height = "31vw";
-        document.querySelector("#blob2").style.width = "31vw";
+        document.querySelector("#blob2").style.height = "17vw";
+        document.querySelector("#blob2").style.width = "17vw";
         document.querySelector("#blob2").style.top = "-7vw";
         document.querySelector("#blob2").style.left = "-7vw";
         document.querySelector("#dining-icon").style.top="3vw"
